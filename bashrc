@@ -8,7 +8,7 @@ alias ll='eza -la --icons'
 alias lo='ll --sort=modified'
 
 # nixos stuff
-alias nrs='sudo nixos-rebuild switch --flake ~/nixos-dotfiles#nixos-btw'
+alias nrs='sudo nixos-rebuild switch --flake ~/nixos-dotfiles?submodules=1#nixos-btw'
 alias nc='nvim ~/nixos-dotfiles/.'
 
 # oxwm stuff
