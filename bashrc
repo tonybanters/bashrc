@@ -1,6 +1,7 @@
-export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.emacs.d/bin:$PATH"
 export MANPAGER="nvim +Man!"
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow'
+export EDITOR="nvim"
 
 alias ls='eza -l --icons'
 alias la='eza -a --icons'
